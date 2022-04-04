@@ -46,21 +46,25 @@ table {
 	border-spacing: 0;
 }
 
+body {
+  display: flex;
+}
+
 img {
   position: relative;
   margin: 0;
   max-height: 100vh;
-  text-align: center;
 }
 
 .image_section {
-  width: 50%
+  height: 100vh;
+  overflow: hidden;
 }
 
 .image_footer {
   position: relative;
   color: var(--footer-text);
-  bottom: 20px;
+  bottom: 30px;
 }
 
 a:visited {
