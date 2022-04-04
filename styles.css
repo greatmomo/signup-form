@@ -50,7 +50,7 @@ body {
   display: flex;
 }
 
-img {
+.background_image {
   position: relative;
   margin: 0;
   max-height: 100vh;
@@ -74,4 +74,16 @@ a:visited {
 .footer_text {
   width: auto;
   text-align: center;
+}
+
+.logo_section {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+}
+
+.logo_text {
+  color: var(--footer-text);
+  font-size: 50px;
 }
