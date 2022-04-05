@@ -87,3 +87,22 @@ a:visited {
   color: var(--footer-text);
   font-size: 50px;
 }
+
+
+.text_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.abstract_section {
+  padding: 30px;
+}
+
+.form_section {
+  padding: 30px;
+}
+
+.button_section {
+  padding: 30px;
+}
