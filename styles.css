@@ -123,13 +123,24 @@ a:visited {
 }
 
 .abstract_section {
-  padding: 30px;
+  padding: 40px;
+}
+
+.abstract_text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -.05rem;
+  line-height: 1.2;
+}
+
+em {
+  font-style: italic;
 }
 
 .form_section {
-  padding: 30px;
+  padding: 40px;
 }
 
 .button_section {
-  padding: 30px;
+  padding: 40px;
 }
