@@ -141,6 +141,10 @@ em {
   padding: 40px;
 }
 
+label {
+  text-transform: uppercase;
+}
+
 .button_section {
   padding: 40px;
 }
