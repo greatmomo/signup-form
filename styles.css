@@ -152,7 +152,7 @@ label {
 .signup_form {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
+  width: 700px;
   padding-top: 20px;
 }
 
@@ -161,17 +161,23 @@ label {
   flex-direction: column;
 }
 
-.signup_form div input {
-  width: 200px;
-  margin-right: 50px;
+input {
+  width: 250px;
+  margin-right: 80px;
   margin-bottom: 20px;
   padding: 7px;
   border-radius: 3px;
   border: 1px solid hsla(0, 0%, 50%, 0.3);
 }
 
+input:invalid {
+  border: 1px solid hsla(0, 83%, 50%, 0.524);
+}
+
 input:active, input:focus {
-  border: 1px dashed hsla(201, 92%, 54%, 0.489);
+  outline: none;
+  border: 1px solid hsla(212, 92%, 54%, 0.583);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.434);
 }
 
 
