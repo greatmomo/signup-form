@@ -124,6 +124,7 @@ a:visited {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 70%;
 }
 
 .abstract_section {
