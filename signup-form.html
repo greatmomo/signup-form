@@ -32,7 +32,7 @@
 
     <div class="form_section">
       <p class="abstract_text">Let's do this!</p>
-      <form class="signup_form" action="#" method="get">
+      <form class="signup_form" action="#" method="get" id="signup_form">
         <div class="form_element">
           <label for="user_first_name">First Name</label>
           <input type="text" id="user_first_name" name="user_first_name" autofocus>
@@ -61,7 +61,7 @@
     </div>
 
     <div class="button_section">
-      <button type="submit" class="create_acc_but">Create Account</button>
+      <button type="submit" form="signup_form" class="create_acc_but">Create Account</button>
 
       <div class="login">
         <p class="login_text">Already have an account? <a href="/login">Log in</a></p>
