@@ -18,7 +18,7 @@
       </div>
   
       <div class="image_footer">
-        <p class="footer_text">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+        <p class="footer_text">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="image_link">Halie West</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="image_link">Unsplash</a></p>
       </div>
     </div>
   </div>
@@ -52,6 +52,7 @@
         <div class="form_element">
           <label for="user_password">Password</label>
           <input type="password" id="user_password" name="user_password" required>
+          <p id="validation-error"></p>
         </div>
         <div class="form_element">
           <label for="user_pw_conf">Confirm Password</label>
@@ -64,9 +65,10 @@
       <button type="submit" form="signup_form" class="create_acc_but">Create Account</button>
 
       <div class="login">
-        <p class="login_text">Already have an account? <a href="/login">Log in</a></p>
+        <p class="login_text">Already have an account? <a href="/login" class="login_link">Log in</a></p>
       </div>
     </div>
   </div>
 </body>
+<script src="script.js"></script>
 </html>
