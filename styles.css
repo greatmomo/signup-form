@@ -144,7 +144,7 @@ em {
 
 
 .form_section {
-  padding: 40px;
+  padding: 20px 40px;
   background-color: white;
   box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.3);
 }
@@ -185,6 +185,12 @@ input:active, input:focus {
   outline: none;
   border: 1px solid hsla(212, 92%, 54%, 0.583);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.434);
+}
+
+#validation-error {
+  margin-top: -20px;
+  font-size: 0.8rem;
+  color: hsla(0, 83%, 50%, 0.767);
 }
 
 
